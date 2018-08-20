@@ -1,0 +1,5 @@
+{
+    "name": "@dependency/wrapStringStream",
+    "version": "0.1.0",
+    "main": "./source/entrypoint.js"
+}
