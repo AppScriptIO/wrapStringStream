@@ -1,5 +1,8 @@
 {
     "name": "@dependency/wrapStringStream",
     "version": "0.1.0",
-    "main": "./source/entrypoint.js"
+    "main": "./source/entrypoint.js",
+    "dependencies": {
+        "multistream": "^2.1.1"
+    }
 }
