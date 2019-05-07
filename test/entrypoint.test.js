@@ -11,7 +11,6 @@ const isStream = stream => !!(typeof stream === 'object' && typeof stream.pipe =
 
 const testAssetPath = path.join(configuration.directory.application.containerAbsolutePath, 'test/asset')
 
-
 describe('function wrapStringStream: ', function() {
     describe('Surround a stream with strings', function() {
         const beforeString = 'before',
