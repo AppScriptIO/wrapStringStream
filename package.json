@@ -2,6 +2,9 @@
     "name": "@dependency/wrapStringStream",
     "version": "1.0.1",
     "main": "./entrypoint/programmaticAPI",
+    "scripts": {
+        "buildAndRelease": "yarn run scriptManager shouldCompileScript=true JSProject/buildAndRelease \".moduleProject({})\""
+    },
     "dependencies": {
         "multistream": "^2.1.1"
     },

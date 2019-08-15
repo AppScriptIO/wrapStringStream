@@ -855,10 +855,6 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@dependency/JSModuleTypeCheck@https://github.com/AppScriptIO/JSModuleTypeCheck":
-  version "1.0.0"
-  resolved "https://github.com/AppScriptIO/JSModuleTypeCheck#e8a5ed0720454a77cfbae8c333f9ffe5880eac72"
-
 "@dependency/JSModuleTypeCheck@https://github.com/AppScriptIO/JSModuleTypeCheck#semver:^1.x.x":
   version "1.0.0"
   resolved "https://github.com/AppScriptIO/JSModuleTypeCheck#cb1277c49a430d9514385f02b75ff4d5a2a3c251"
@@ -871,10 +867,6 @@
   version "1.0.0"
   resolved "https://github.com/AppScriptIO/addModuleResolutionPath#7d93ec94414fb9da98a24385cf06ad86fab71982"
 
-"@dependency/configurationManagement@https://github.com/AppScriptIO/configurationManagement":
-  version "1.0.0"
-  resolved "https://github.com/AppScriptIO/configurationManagement#9e24ad42ac46543541f9ec359e39ef6ef29f632f"
-
 "@dependency/configurationManagement@https://github.com/AppScriptIO/configurationManagement#semver:^1.x.x":
   version "1.0.0"
   resolved "https://github.com/AppScriptIO/configurationManagement#b299f5eb174a73f78e4f77cb69a9055c55855c0a"
@@ -885,10 +877,6 @@
   dependencies:
     "@dependency/javascriptTestRunner" "https://github.com/AppScriptIO/javascriptTestRunner"
     "@dependency/nodejsLiveReload" "https://github.com/AppScriptIO/nodejsLiveReload"
-
-"@dependency/installNodeJSModule@https://github.com/AppScriptIO/installNodeJSModule":
-  version "1.0.0"
-  resolved "https://github.com/AppScriptIO/installNodeJSModule#b82879a1ca87b24c4fc18fc897af95e630e7a456"
 
 "@dependency/installNodeJSModule@https://github.com/AppScriptIO/installNodeJSModule#semver:^1.x.x":
   version "1.0.0"
@@ -971,11 +959,11 @@
   version "1.0.0"
   resolved "https://github.com/AppScriptIO/listDirectoryContent#0a25bcb32aa1029569af0b32b7226b0b3b88d955"
 
-"@dependency/moduleScopePattern@https://github.com/AppScriptIO/moduleScopePattern":
-  version "1.0.0"
-  resolved "https://github.com/AppScriptIO/moduleScopePattern#36fde7f938ac82fb6bacb00da57df9b62fcd533c"
+"@dependency/moduleScopePattern@https://github.com/AppScriptIO/moduleScopePattern#semver:^1.x.x":
+  version "1.0.2"
+  resolved "https://github.com/AppScriptIO/moduleScopePattern#82c3ee40de9a3e8bb5fe137b1337e27863266e90"
   dependencies:
-    "@dependency/recursiveCreateDirectory" "https://github.com/AppScriptIO/recursiveCreateDirectory"
+    "@dependency/recursiveCreateDirectory" "https://github.com/AppScriptIO/recursiveCreateDirectory#semver:^1.x.x"
     del "^3.0.0"
 
 "@dependency/nodejsLiveReload@https://github.com/AppScriptIO/nodejsLiveReload":
@@ -990,30 +978,35 @@
   version "1.0.0"
   resolved "https://github.com/AppScriptIO/parseKeyValuePairSeparatedBySymbol#d4b489fd6aaf878d7cc44fd0d50b416dce140db0"
 
-"@dependency/recursiveCreateDirectory@https://github.com/AppScriptIO/recursiveCreateDirectory":
-  version "1.0.0"
-  resolved "https://github.com/AppScriptIO/recursiveCreateDirectory#e30c973f584fc145441c24e53e4e9844330f8336"
+"@dependency/parseKeyValuePairSeparatedBySymbol@https://github.com/AppScriptIO/parseKeyValuePairSeparatedBySymbol#semver:^1.x.x":
+  version "1.0.1"
+  resolved "https://github.com/AppScriptIO/parseKeyValuePairSeparatedBySymbol#e87a1c2ccd5356f6ac1401f91e8057b3de7dbd0b"
 
-"@dependency/scriptExecution@https://github.com/AppScriptIO/scriptExecution":
-  version "1.0.0"
-  resolved "https://github.com/AppScriptIO/scriptExecution#cb917859eba9923fda3ed55b3ee73bdeea2f349b"
+"@dependency/recursiveCreateDirectory@https://github.com/AppScriptIO/recursiveCreateDirectory#semver:^1.x.x":
+  version "1.0.1"
+  resolved "https://github.com/AppScriptIO/recursiveCreateDirectory#edbe2c27da292f4ead1109634e0fe0e6c1815d06"
+
+"@dependency/scriptExecution@https://github.com/AppScriptIO/scriptExecution#semver:^1.x.x":
+  version "1.0.2"
+  resolved "https://github.com/AppScriptIO/scriptExecution#84bf9d9036b632a9efa0a038b7e1c1e374e17624"
   dependencies:
     "@dependency/JSModuleTypeCheck" "https://github.com/AppScriptIO/JSModuleTypeCheck#semver:^1.x.x"
     "@dependency/configurationManagement" "https://github.com/AppScriptIO/configurationManagement#semver:^1.x.x"
     "@dependency/installNodeJSModule" "https://github.com/AppScriptIO/installNodeJSModule#semver:^1.x.x"
     "@dependency/listDirectoryContent" "https://github.com/AppScriptIO/listDirectoryContent#semver:^1.x.x"
 
-"@dependency/scriptManager@https://github.com/AppScriptIO/scriptManager":
-  version "1.0.0"
-  resolved "https://github.com/AppScriptIO/scriptManager#c96d5d8261049d7563095070e6ca9ff7becbe8a1"
+"@dependency/scriptManager@https://github.com/AppScriptIO/scriptManager#semver:^1.x.x":
+  version "1.0.9"
+  resolved "https://github.com/AppScriptIO/scriptManager#d9a73c23e859ba30854c4a7b657756fac860cc46"
   dependencies:
-    "@dependency/JSModuleTypeCheck" "https://github.com/AppScriptIO/JSModuleTypeCheck"
-    "@dependency/addModuleResolutionPath" "https://github.com/AppScriptIO/addModuleResolutionPath"
-    "@dependency/configurationManagement" "https://github.com/AppScriptIO/configurationManagement"
-    "@dependency/installNodeJSModule" "https://github.com/AppScriptIO/installNodeJSModule"
-    "@dependency/moduleScopePattern" "https://github.com/AppScriptIO/moduleScopePattern"
-    "@dependency/parseKeyValuePairSeparatedBySymbol" "https://github.com/AppScriptIO/parseKeyValuePairSeparatedBySymbol"
-    "@dependency/scriptExecution" "https://github.com/AppScriptIO/scriptExecution"
+    "@dependency/JSModuleTypeCheck" "https://github.com/AppScriptIO/JSModuleTypeCheck#semver:^1.x.x"
+    "@dependency/addModuleResolutionPath" "https://github.com/AppScriptIO/addModuleResolutionPath#semver:^1.x.x"
+    "@dependency/configurationManagement" "https://github.com/AppScriptIO/configurationManagement#semver:^1.x.x"
+    "@dependency/installNodeJSModule" "https://github.com/AppScriptIO/installNodeJSModule#semver:^1.x.x"
+    "@dependency/javascriptTranspilation" "https://github.com/AppScriptIO/javascriptTranspilation#semver:^1.x.x"
+    "@dependency/moduleScopePattern" "https://github.com/AppScriptIO/moduleScopePattern#semver:^1.x.x"
+    "@dependency/parseKeyValuePairSeparatedBySymbol" "https://github.com/AppScriptIO/parseKeyValuePairSeparatedBySymbol#semver:^1.x.x"
+    "@dependency/scriptExecution" "https://github.com/AppScriptIO/scriptExecution#semver:^1.x.x"
     child-process-promise "^2.2.1"
     dockerode "^2.5.1"
     find-up "^3.0.0"
